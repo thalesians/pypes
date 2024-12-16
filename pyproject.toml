@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "thalesians.pypes"
+version = "0.0.1"
+authors = [
+	{ name="Paul Alexander Bilokon", email="paul@thalesians.com" },
+]
+description = "A pype abstraction for interprocess communication (IPC) in Python and Jupyter"
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+	"thalesians.adiutor>=0.0.3",
+	"pyzmq>=22.3.0",
+	"zmq",
+]
+
+[project.urls]
+Homepage = "https://github.com/thalesians/pypes/"
+Issues = "https://github.com/thalesians/pypes/issues"
