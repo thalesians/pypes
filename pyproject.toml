@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "thalesians.pypes"
-version = "0.0.1"
+version = "0.0.2"
 authors = [
 	{ name="Paul Alexander Bilokon", email="paul@thalesians.com" },
 ]
